@@ -1,0 +1,18 @@
+	Battle Music Album - 030718
+	Artist: GWriterStudio
+1. Long Adventure
+2. Last Standing
+3. Great Sword
+4. Appearance
+5. Gate Guardians
+6. Fallen Knights
+7. Alone Way
+8. Heroes of Kingdom
+9. To The Victory
+10. Overwhelming
+
+Please use .wav for looping sound in Unity without problems.
+Remove "mp3 - 320k.rar" if not needded
+
+Have Questions contact me via gmail:
+gwriterstudio@gmail.com
