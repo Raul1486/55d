@@ -1,0 +1,1050 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1526; Version 2009; 64bit' Language: 'es' Physical Memory: 8169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/letem/Documents/Cursos Unity/55/Shooter_
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+53589
+Successfully changed project path to: C:/Users/letem/Documents/Cursos Unity/55/Shooter_
+C:/Users/letem/Documents/Cursos Unity/55/Shooter_
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 136.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/letem/Documents/Cursos Unity/55/Shooter_/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007457 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 123.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.727 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 127.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.870 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 4.68 seconds
+Refreshing native plugins compatible for Editor in 6.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3577 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.7 MB.
+System memory in use after: 171.2 MB.
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 4007.
+Total: 8.184600 ms (FindLiveObjects: 0.876500 ms CreateObjectMapping: 0.173800 ms MarkObjects: 4.674400 ms  DeleteObjects: 2.457300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_Scripts/Manager.cs
+  artifactKey: Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Manager.cs using Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1317229031d2758b211bc0b6d1744661') in 0.269598 seconds
+  Import took 0.298904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1091.209456 seconds.
+  path: Assets/_Scripts/ScoreManager.cs
+  artifactKey: Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ScoreManager.cs using Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3311dc0adf01ec2f6ee484b1cc4b44') in 0.006358 seconds
+  Import took 0.091945 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.194 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.2 MB.
+System memory in use after: 161.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4010.
+Total: 5.358200 ms (FindLiveObjects: 0.421200 ms CreateObjectMapping: 0.170400 ms MarkObjects: 3.536300 ms  DeleteObjects: 1.227800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1485.474958 seconds.
+  path: Assets/_Scripts/ScoreManager.cs
+  artifactKey: Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ScoreManager.cs using Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208fc7b55be40752c904c020f8f1e533') in 0.016752 seconds
+  Import took 0.054288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065524 seconds.
+  path: Assets/_Scripts/ScoreManager.cs
+  artifactKey: Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ScoreManager.cs using Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208fc7b55be40752c904c020f8f1e533') in 0.004411 seconds
+  Import took 0.052301 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.892 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.0 MB.
+System memory in use after: 161.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4013.
+Total: 5.806300 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.176200 ms MarkObjects: 3.850800 ms  DeleteObjects: 1.339400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.230 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.1 MB.
+System memory in use after: 161.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4016.
+Total: 8.894900 ms (FindLiveObjects: 0.401500 ms CreateObjectMapping: 1.452800 ms MarkObjects: 5.567800 ms  DeleteObjects: 1.470000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 755.656563 seconds.
+  path: Assets/_Scripts/ScoreManager.cs
+  artifactKey: Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ScoreManager.cs using Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25311ede97927a089ee4bf35e0dbdeab') in 0.014277 seconds
+  Import took 0.041771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.054039 seconds.
+  path: Assets/_Scripts/Enemigo.cs
+  artifactKey: Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Enemigo.cs using Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e32f13f71d8b79f73bfa20e0d7ffb1d') in 0.007121 seconds
+  Import took 0.048807 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.998 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.2 MB.
+System memory in use after: 161.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4020.
+Total: 5.719800 ms (FindLiveObjects: 0.382100 ms CreateObjectMapping: 0.174800 ms MarkObjects: 3.845100 ms  DeleteObjects: 1.315400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.543 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.2 MB.
+System memory in use after: 161.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4023.
+Total: 5.548100 ms (FindLiveObjects: 0.373600 ms CreateObjectMapping: 0.160500 ms MarkObjects: 3.702200 ms  DeleteObjects: 1.309200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 434.850223 seconds.
+  path: Assets/_Scripts/Enemigo.cs
+  artifactKey: Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Enemigo.cs using Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9eb8c5857a3d29507e52c5ae6609313') in 0.012133 seconds
+  Import took 0.020428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 546.368034 seconds.
+  path: Assets/_Scripts/Enemigo.cs
+  artifactKey: Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Enemigo.cs using Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497d5de2456ed5d6b9232cf1bb307550') in 0.007929 seconds
+  Import took 0.049251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078459 seconds.
+  path: Assets/_Scripts/Enemigo.cs
+  artifactKey: Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Enemigo.cs using Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497d5de2456ed5d6b9232cf1bb307550') in 0.004169 seconds
+  Import took 0.012546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.180636 seconds.
+  path: Assets/_Scripts/Enemigo.cs
+  artifactKey: Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Enemigo.cs using Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be50d72fd7b49caed08d5a47afd8409f') in 0.004781 seconds
+  Import took 0.017221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047918 seconds.
+  path: Assets/_Scripts/Enemigo.cs
+  artifactKey: Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Enemigo.cs using Guid(b3c91ba3db729164889b518e7566fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be50d72fd7b49caed08d5a47afd8409f') in 0.006176 seconds
+  Import took 0.023184 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005075 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.864 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.2 MB.
+System memory in use after: 161.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4026.
+Total: 6.876100 ms (FindLiveObjects: 0.411300 ms CreateObjectMapping: 0.194200 ms MarkObjects: 4.222600 ms  DeleteObjects: 2.045000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.969213 seconds.
+  path: Assets/Prefabs/Player Variant.prefab
+  artifactKey: Guid(07017c42a1a21c3439f09d21cfaac1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Variant.prefab using Guid(07017c42a1a21c3439f09d21cfaac1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535d7b9ff7dee53cf91236ad0f4ed9e6') in 2.061217 seconds
+  Import took 2.078119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.602376 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30316fa8dd3c3d3c4acc146564fe3741') in 0.242017 seconds
+  Import took 0.264732 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005239 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.119 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.5 MB.
+System memory in use after: 180.1 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4075.
+Total: 5.610900 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.173300 ms MarkObjects: 3.709100 ms  DeleteObjects: 1.324100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.379 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.6 MB.
+System memory in use after: 180.1 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4078.
+Total: 7.508400 ms (FindLiveObjects: 0.489300 ms CreateObjectMapping: 1.571900 ms MarkObjects: 4.011600 ms  DeleteObjects: 1.433100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.061515 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.588 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.5 MB.
+System memory in use after: 180.1 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4081.
+Total: 5.667200 ms (FindLiveObjects: 0.413300 ms CreateObjectMapping: 0.168600 ms MarkObjects: 3.652800 ms  DeleteObjects: 1.430400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1064.497244 seconds.
+  path: Assets/_Scripts/ScoreManager.cs
+  artifactKey: Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ScoreManager.cs using Guid(5e123a2c6ca0093499ddf50692b23326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da73e39b405a167f094f895b4797f44') in 0.036373 seconds
+  Import took 0.289036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.618461 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9208272a800f045151cd4d5c6677bf61') in 1.163120 seconds
+  Import took 1.200941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.452001 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530935e4dc124fe9eb34b3dfddeb1a89') in 0.099256 seconds
+  Import took 0.118516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006941 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530935e4dc124fe9eb34b3dfddeb1a89') in 0.088106 seconds
+  Import took 0.101319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.487727 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3641419726acb7ddb98e6d1161f00d25') in 0.097205 seconds
+  Import took 0.134106 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006978 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.206 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.7 MB.
+System memory in use after: 180.3 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4120.
+Total: 12.514100 ms (FindLiveObjects: 1.420700 ms CreateObjectMapping: 0.741100 ms MarkObjects: 8.032600 ms  DeleteObjects: 2.315800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.792351 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cb878aef721f62180d2c9a48d470e7') in 0.380510 seconds
+  Import took 0.406532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.632740 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9ba43826798662cb966b457b222502') in 0.088273 seconds
+  Import took 0.128745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.766890 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c12128bcb28571982fbc2544174e9a7') in 0.105458 seconds
+  Import took 0.119015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.963300 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c85abb47412bb25d39fc29d76c7abae') in 0.100171 seconds
+  Import took 0.141398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.479904 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32af8df27dd8c68a8eb09b87949a91df') in 0.095400 seconds
+  Import took 0.154624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.157993 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab
+  artifactKey: Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab using Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63d99a3602ecd987cbda99b11f3d452') in 0.090928 seconds
+  Import took 0.137086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Prefabs/PBRCharacter.prefab
+  artifactKey: Guid(f432554f564e69242897607d34218939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Prefabs/PBRCharacter.prefab using Guid(f432554f564e69242897607d34218939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae01dd85d2406c959166a708f2b0840') in 0.112224 seconds
+  Import took 0.147837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab
+  artifactKey: Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab using Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63d99a3602ecd987cbda99b11f3d452') in 0.086218 seconds
+  Import took 0.099786 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.341 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.9 MB.
+System memory in use after: 180.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4159.
+Total: 6.971300 ms (FindLiveObjects: 0.392800 ms CreateObjectMapping: 0.185000 ms MarkObjects: 4.870900 ms  DeleteObjects: 1.519400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.232073 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab
+  artifactKey: Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab using Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6488b1bcf6e47b2c1bf362427a9f1404') in 1.326552 seconds
+  Import took 1.370663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.584697 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab
+  artifactKey: Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab using Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6488b1bcf6e47b2c1bf362427a9f1404') in 0.108964 seconds
+  Import took 0.121531 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.025 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.0 MB.
+System memory in use after: 180.6 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4198.
+Total: 5.497800 ms (FindLiveObjects: 0.373900 ms CreateObjectMapping: 0.170400 ms MarkObjects: 3.632600 ms  DeleteObjects: 1.318300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.484846 seconds.
+  path: Assets/Prefabs/Enemy Variant.prefab
+  artifactKey: Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Variant.prefab using Guid(3244dbf3fedea884491820e5346c8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ef433c2f4c03d94b8bea7a0e14342a') in 1.068645 seconds
+  Import took 1.182663 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.972 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) path("Assets/_Scripts/EnemyManager.cs") state(2)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 180.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4237.
+Total: 48.509400 ms (FindLiveObjects: 0.492100 ms CreateObjectMapping: 1.013500 ms MarkObjects: 45.618100 ms  DeleteObjects: 1.383100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.113 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4241.
+Total: 5.919600 ms (FindLiveObjects: 0.432300 ms CreateObjectMapping: 0.179500 ms MarkObjects: 3.959400 ms  DeleteObjects: 1.345100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2057.755739 seconds.
+  path: Assets/_Scripts/EnemyManager.cs
+  artifactKey: Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyManager.cs using Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea27a899289f309e03a0ab38f8c33e61') in 0.011978 seconds
+  Import took 0.019988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 393.877422 seconds.
+  path: Assets/_Scripts/EnemyManager.cs
+  artifactKey: Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyManager.cs using Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbf0167fe37f9a5f03ce616365c3d93') in 0.005814 seconds
+  Import took 0.014502 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.520 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4244.
+Total: 5.924800 ms (FindLiveObjects: 0.465300 ms CreateObjectMapping: 0.182700 ms MarkObjects: 3.819000 ms  DeleteObjects: 1.455200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 601.166506 seconds.
+  path: Assets/_Scripts/EnemyManager.cs
+  artifactKey: Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyManager.cs using Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fe5c6c9e33ab5ce0c057d2bf7cf1e9') in 0.010298 seconds
+  Import took 0.018418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.885486 seconds.
+  path: Assets/_Scripts/EnemyManager.cs
+  artifactKey: Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyManager.cs using Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc75227194136e20dcfa9db65bf3633') in 0.008237 seconds
+  Import took 0.041954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146814 seconds.
+  path: Assets/_Scripts/EnemyManager.cs
+  artifactKey: Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyManager.cs using Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc75227194136e20dcfa9db65bf3633') in 0.060000 seconds
+  Import took 0.067706 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.558 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4247.
+Total: 5.784600 ms (FindLiveObjects: 0.393000 ms CreateObjectMapping: 0.164200 ms MarkObjects: 3.883500 ms  DeleteObjects: 1.341800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.957 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4250.
+Total: 6.066900 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.179000 ms MarkObjects: 3.596600 ms  DeleteObjects: 1.879900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.382003 seconds.
+  path: Assets/_Scripts/EnemyManager.cs
+  artifactKey: Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyManager.cs using Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafea4d82e9c6b3fadd2ecd2ae65a030') in 0.012076 seconds
+  Import took 0.066195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005534 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.015 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4253.
+Total: 6.189700 ms (FindLiveObjects: 0.480300 ms CreateObjectMapping: 0.261500 ms MarkObjects: 4.053300 ms  DeleteObjects: 1.391800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 648.276582 seconds.
+  path: Assets/_Scripts/EnemyManager.cs
+  artifactKey: Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyManager.cs using Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc747bfb521df1b169068a61eaa343e') in 0.011571 seconds
+  Import took 0.042813 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.988 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4256.
+Total: 6.687600 ms (FindLiveObjects: 0.435000 ms CreateObjectMapping: 0.190900 ms MarkObjects: 4.669400 ms  DeleteObjects: 1.389900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 410.155878 seconds.
+  path: Assets/_Scripts/EnemyManager.cs
+  artifactKey: Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyManager.cs using Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d5af55b68097593c56180df937f35f') in 0.014918 seconds
+  Import took 0.172146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065871 seconds.
+  path: Assets/_Scripts/EnemyManager.cs
+  artifactKey: Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/EnemyManager.cs using Guid(a30a866bd8fa4d44d91d6c83b7cdc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d5af55b68097593c56180df937f35f') in 0.005405 seconds
+  Import took 0.019440 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.734 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4259.
+Total: 5.811100 ms (FindLiveObjects: 0.386800 ms CreateObjectMapping: 0.169200 ms MarkObjects: 3.967500 ms  DeleteObjects: 1.286000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/letem/Documents/Cursos Unity/Cursos_Unity_2021/Shooter_/Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.942 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.3 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4262.
+Total: 5.821100 ms (FindLiveObjects: 0.460700 ms CreateObjectMapping: 0.174000 ms MarkObjects: 3.665200 ms  DeleteObjects: 1.519000 ms)
+

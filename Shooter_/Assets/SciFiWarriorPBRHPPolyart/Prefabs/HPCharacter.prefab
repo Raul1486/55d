@@ -2038,6 +2038,7 @@ GameObject:
   - component: {fileID: 3775673770490633988}
   - component: {fileID: 1430915556827403501}
   - component: {fileID: -3044074690899564005}
+  - component: {fileID: 9167361607271112547}
   m_Layer: 9
   m_Name: HPCharacter
   m_TagString: Enemigo
@@ -2142,6 +2143,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 100
+--- !u!114 &9167361607271112547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673487251499248760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c91ba3db729164889b518e7566fff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsAmount: 10
 --- !u!1 &7673487251499248762
 GameObject:
   m_ObjectHideFlags: 0
