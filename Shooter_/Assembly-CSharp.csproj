@@ -55,6 +55,7 @@
      <Compile Include="Assets\_Scripts\ScoreManager.cs" />
      <Compile Include="Assets\_Scripts\Enemigo.cs" />
      <Compile Include="Assets\_Scripts\EnemyManager.cs" />
+     <Compile Include="Assets\_Scripts\OleadasManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\AUDIO\Music\Battle Music Album - 030718\Notes.txt" />
