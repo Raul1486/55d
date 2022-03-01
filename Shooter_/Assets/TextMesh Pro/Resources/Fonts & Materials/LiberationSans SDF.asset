@@ -31,9 +31,9 @@ Material:
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
     - _OutlineSoftness: 0
-    - _OutlineWidth: 0.462
+    - _OutlineWidth: 0.5
     - _PerspectiveFilter: 0.875
-    - _ScaleRatioA: 0.82606703
+    - _ScaleRatioA: 0.7982261
     - _ScaleRatioB: 1
     - _ScaleRatioC: 0.33525
     - _ScaleX: 1
