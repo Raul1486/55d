@@ -2,12 +2,22 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class OleadasManager : MonoBehaviour
 {
     public static OleadasManager SharedInstance;
 
-    public List<WaveSpawner> oleadas;
+    private List<WaveSpawner> oleadas;
+
+    public UnityEvent onWaveChanged;
+    
+    
+    
+    public int WavesCount
+    {
+        get => oleadas.Count;
+    }
 
 
     private void Awake()
@@ -22,4 +32,17 @@ public class OleadasManager : MonoBehaviour
             Destroy(this);
         }
     }
+
+    public void AddOleada(WaveSpawner oleada)
+    {
+        oleadas.Add(oleada);
+        onWaveChanged.Invoke();
+    }
+    public void RemoveOleada(WaveSpawner oleada)
+    {
+        oleadas.Remove(oleada);
+        onWaveChanged.Invoke();
+    }
+    
+    
 }

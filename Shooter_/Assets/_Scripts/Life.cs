@@ -3,37 +3,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.EditorTools;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Rendering;
 
 public class Life : MonoBehaviour
 {
     [SerializeField]
     private float amount;
-
+    
+    public UnityEvent onDeath;
+    
+    
+    
     public float Amount
     {
         get => amount;
-        
-        
         set
         {
             amount = value;
             
             if (amount <= 0)
             {
-                Animator anim = GetComponent<Animator>();
-                anim.SetTrigger("Play Die");
-                
-                Invoke("PlayDestruction", 1);    
-
-                Destroy(gameObject,1.5f);
+                onDeath.Invoke();
             }
         }
-    }
-    
-    void PlayDestruction()
-    {
-        ParticleSystem explosion = GetComponentInChildren<ParticleSystem>();
-        explosion.Play();
     }
 }

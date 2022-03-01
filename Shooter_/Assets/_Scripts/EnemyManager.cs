@@ -1,13 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EnemyManager : MonoBehaviour
 {
     public static EnemyManager SharedInstance;
 
-    public List<Enemigo> enemigos;
+    private List<Enemigo> enemigos;
+    public UnityEvent onEnemyChanged;
     
+    
+    public int EnemyCount
+    {
+        get => enemigos.Count;
+    }
     
     private void Awake()
     {
@@ -21,4 +28,16 @@ public class EnemyManager : MonoBehaviour
             Destroy(this);
         }
     }
+
+    public void AddEnemy(Enemigo enemigo)
+    {
+        enemigos.Add(enemigo);
+        onEnemyChanged.Invoke();
+    }
+    public void RemoveEnemy(Enemigo enemigo)
+    {
+        enemigos.Remove(enemigo);
+        onEnemyChanged.Invoke();
+    }
+    
 }

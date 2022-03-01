@@ -18,7 +18,7 @@ public class WaveSpawner : MonoBehaviour
 
     private void Start()
     {
-        OleadasManager.SharedInstance.oleadas.Add(this);
+        OleadasManager.SharedInstance.AddOleada(this);
         InvokeRepeating("SpawnEnemy", startTime, spawnRate);
         Invoke("EndOleadas", endTime);
     }
@@ -35,7 +35,7 @@ public class WaveSpawner : MonoBehaviour
 
     void EndOleadas()
     {
-        OleadasManager.SharedInstance.oleadas.Remove(this);
+        OleadasManager.SharedInstance.RemoveOleada(this);
         CancelInvoke();
     }
 
