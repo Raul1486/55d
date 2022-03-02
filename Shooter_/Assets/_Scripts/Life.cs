@@ -10,6 +10,10 @@ public class Life : MonoBehaviour
 {
     [SerializeField]
     private float amount;
+
+    public float MaxLife = 100f;
+    
+    
     
     public UnityEvent onDeath;
     
@@ -27,5 +31,11 @@ public class Life : MonoBehaviour
                 onDeath.Invoke();
             }
         }
+    }
+
+
+    private void Awake()
+    {
+        amount = MaxLife;
     }
 }

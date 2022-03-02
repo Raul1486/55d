@@ -14,7 +14,7 @@ public class GameModeOleadas : MonoBehaviour
     
     
     
-    private void Awake()
+    private void Start()
     {
         playerLife.onDeath.AddListener(CheckLoseCondition);
         baseLife.onDeath.AddListener(CheckLoseCondition);

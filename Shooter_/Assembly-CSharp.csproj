@@ -57,6 +57,12 @@
      <Compile Include="Assets\_Scripts\WaveSpawner.cs" />
      <Compile Include="Assets\_Scripts\DamageOnContact.cs" />
      <Compile Include="Assets\_Scripts\Life.cs" />
+     <Compile Include="Assets\_Scripts\LifeBar.cs" />
+     <Compile Include="Assets\_Scripts\PlayerBulletsUI.cs" />
+     <Compile Include="Assets\_Scripts\ScoreUI.cs" />
+     <Compile Include="Assets\_Scripts\EnemigosUI.cs" />
+     <Compile Include="Assets\_Scripts\OleadasUI.cs" />
+     <Compile Include="Assets\_Scripts\Pause.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\AUDIO\Music\Battle Music Album - 030718\Notes.txt" />

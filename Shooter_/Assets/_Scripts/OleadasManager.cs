@@ -13,12 +13,17 @@ public class OleadasManager : MonoBehaviour
     public UnityEvent onWaveChanged;
     
     
-    
     public int WavesCount
     {
         get => oleadas.Count;
     }
 
+    private int maxOleadas;
+    public int MaxOleadas
+    {
+        get => maxOleadas;
+    }
+    
 
     private void Awake()
     {
@@ -35,6 +40,7 @@ public class OleadasManager : MonoBehaviour
 
     public void AddOleada(WaveSpawner oleada)
     {
+        maxOleadas++;
         oleadas.Add(oleada);
         onWaveChanged.Invoke();
     }

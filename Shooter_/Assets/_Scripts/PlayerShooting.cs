@@ -10,6 +10,9 @@ public class PlayerShooting : MonoBehaviour
 
     private Animator _animator;
 
+    public int bulletsAmount;
+    
+    
     private void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -18,16 +21,21 @@ public class PlayerShooting : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && bulletsAmount > 0 && Time.timeScale > 0)
         {
             _animator.SetTrigger("Disparo");
-           GameObject bala = ObjectPool.SharedInstance.GetFirstPooledObject();
-           bala.layer = LayerMask.NameToLayer("Bala Player");
-           bala.transform.position = shootingPoint.transform.position;
-           bala.transform.rotation = shootingPoint.transform.rotation;
-           bala.SetActive(true);
+            Invoke("FireBullet", 0.25f);
         }
-        
-        
+    }
+
+    void FireBullet()
+    {
+        GameObject bala = ObjectPool.SharedInstance.GetFirstPooledObject();
+        bala.layer = LayerMask.NameToLayer("Bala Player");
+        bala.transform.position = shootingPoint.transform.position;
+        bala.transform.rotation = shootingPoint.transform.rotation;
+        bala.SetActive(true);
+
+        bulletsAmount--;
     }
 }
