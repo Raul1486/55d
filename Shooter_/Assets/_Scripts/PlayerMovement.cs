@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 
@@ -19,7 +20,8 @@ public class PlayerMovement : MonoBehaviour
     public float rotationSpeed;
 
 
-    private Rigidbody rb;
+    private Rigidbody _rb;
+    private  Animator _animator;
     
     
     private void Start()
@@ -27,8 +29,9 @@ public class PlayerMovement : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         
-        rb = GetComponent<Rigidbody>(); //ESTO ES SIEMPRE EN EL START
-        
+        _rb = GetComponent<Rigidbody>(); //ESTO ES SIEMPRE EN EL START
+        _animator = GetComponent<Animator>();
+
     }
 
     void Update()
@@ -40,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 dir = new Vector3(horizontal, 0, vertical);
     //transform.Translate(dir.normalized * space);
     // SUSTITUIR X FUERZA DE TRASLACION
-    rb.AddRelativeForce(dir.normalized * space);
+    _rb.AddRelativeForce(dir.normalized * space);
     
     float angle = rotationSpeed * Time.deltaTime;
     float mouseX = Input.GetAxis("Mouse X"); // -1 a 1
@@ -48,7 +51,35 @@ public class PlayerMovement : MonoBehaviour
     
     //transform.Rotate(0, mouseX * angle, 0);
     // SUSTITUIR X FUERZA ROTACION <-> TORQUE
-    rb.AddRelativeTorque(0, mouseX * angle, 0);
+    _rb.AddRelativeTorque(0, mouseX * angle, 0);
+
+    _animator.SetFloat("Velocity", _rb.velocity.magnitude);
+    
+    
+    //ESTE CODIGO SIRVE PARA IR DE PARADO A ANDAR, LUEGO A CORRER Y VICEVERSA...
+    /*
+    _animator.SetFloat("MoveX", horizontal);
+    _animator.SetFloat("MoveY", vertical);
+
+    if (Input.GetKey(KeyCode.LeftShift))
+    {
+        _animator.SetFloat("Velocity", _rb.velocity.magnitude);    
+    }
+    else
+    {
+        if (Math.Abs(horizontal)<0.01f && Math.Abs(vertical)<0.01f)
+        {
+            _animator.SetFloat("Velocity", 0);    
+        }
+        else
+        {
+            _animator.SetFloat("Velocity", 0.15f );
+        }
+        
+    }
+    */ 
+    //TODO: TRUCO , COLOCAR VELOCIDAD DE ANDAR Y OTRA PARA CORRER Y SOLO ES MULLTIPLICAR
+    //TODO: PARA Q VAYA MAS RAPIDO AL PULSAR SHIFT Y ASI CORRE
     
     
 /*

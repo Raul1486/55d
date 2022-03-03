@@ -7,7 +7,10 @@ using UnityEngine.Rendering;
 public class PlayerShooting : MonoBehaviour
 {
     public GameObject shootingPoint;
+    public ParticleSystem fireEffect;
 
+    public AudioSource disparoSound;
+    
     private Animator _animator;
 
     public int bulletsAmount;
@@ -35,7 +38,16 @@ public class PlayerShooting : MonoBehaviour
         bala.transform.position = shootingPoint.transform.position;
         bala.transform.rotation = shootingPoint.transform.rotation;
         bala.SetActive(true);
-
+        
+        fireEffect.Play();
+        
+        Instantiate(disparoSound, transform.position, transform.rotation).
+            GetComponent<AudioSource>().Play();
+        
         bulletsAmount--;
+        if (bulletsAmount<0)
+        {
+            bulletsAmount = 0;
+        }
     }
 }
