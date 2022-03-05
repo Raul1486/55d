@@ -4820,12 +4820,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7673125964672758510}
     - target: {fileID: 176875411741280923, guid: f432554f564e69242897607d34218939, type: 3}
+      propertyPath: disparoSound
+      value: 
+      objectReference: {fileID: 9124014119241475890, guid: 180c8a3399c716a49979449aba0cdf02, type: 3}
+    - target: {fileID: 176875411741280923, guid: f432554f564e69242897607d34218939, type: 3}
       propertyPath: bulletsAmount
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1085350790310011555, guid: f432554f564e69242897607d34218939, type: 3}
+      propertyPath: m_Drag
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085350790310011555, guid: f432554f564e69242897607d34218939, type: 3}
       propertyPath: m_Mass
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085350790310011555, guid: f432554f564e69242897607d34218939, type: 3}
+      propertyPath: m_AngularDrag
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1085350790310011555, guid: f432554f564e69242897607d34218939, type: 3}
       propertyPath: m_Constraints

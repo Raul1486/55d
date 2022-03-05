@@ -46,12 +46,14 @@
      <Compile Include="Assets\_Scripts\MoveForward.cs" />
      <Compile Include="Assets\_Scripts\OleadasManager.cs" />
      <Compile Include="Assets\_Scripts\PlayerShooting.cs" />
+     <Compile Include="Assets\_Scripts\Vista.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\_Scripts\EnemigosUI.cs" />
      <Compile Include="Assets\_Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\_Scripts\Enemigo.cs" />
      <Compile Include="Assets\_Scripts\ObjectPool.cs" />
      <Compile Include="Assets\_Scripts\AutoDestroy.cs" />
+     <Compile Include="Assets\_Scripts\EnemyFSM.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Sprites\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
      <Compile Include="Assets\_Scripts\EnemyManager.cs" />
