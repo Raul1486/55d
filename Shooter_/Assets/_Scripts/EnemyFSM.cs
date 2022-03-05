@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -16,6 +17,10 @@ public class EnemyFSM : MonoBehaviour
     public float baseAttackDistance, playerAttackDistance;
 
     private NavMeshAgent agent;
+    private Animator animator;
+    
+    private float lastShootTime;
+    public float shootRate;
     
     
     private void Awake()
@@ -23,6 +28,7 @@ public class EnemyFSM : MonoBehaviour
         _vista = GetComponent<Vista>();
         baseTransform = GameObject.Find("Base").transform;
         agent = GetComponentInParent<NavMeshAgent>();
+        animator = GetComponentInParent<Animator>();
     }
 
     private void Update()
@@ -72,6 +78,7 @@ public class EnemyFSM : MonoBehaviour
 
     void GoToBase()
     {
+        animator.SetBool("Shoot Bullet Bool", false);
         print("Ir a base");
 
         agent.isStopped = false;
@@ -93,10 +100,13 @@ public class EnemyFSM : MonoBehaviour
     {
         agent.isStopped = true;
         print("atacar base");
+        LookAt(baseTransform.position);
+        ShootTarget();
     }
 
     void ChasePlayer()
     {
+        animator.SetBool("Shoot Bullet Bool", false);
         print("persigue jug");
         if (_vista.detectedTarget == null)
         {
@@ -125,6 +135,8 @@ public class EnemyFSM : MonoBehaviour
             currentState = EnemyState.GoToBase;
             return;
         }
+        LookAt(_vista.detectedTarget.transform.position);
+        ShootTarget();
 
 
         float distanceToPlayer = Vector3.Distance(transform.position, _vista.detectedTarget.transform.position);
@@ -134,6 +146,35 @@ public class EnemyFSM : MonoBehaviour
         }
     }
 
+    
+    void ShootTarget()
+    {
+        if (Time.timeScale>0)
+        {
+            var timeSinceLastShoot = Time.time - lastShootTime;
+            if (timeSinceLastShoot < shootRate)
+            {
+                return;
+            }
+            animator.SetBool("Shoot Bullet Bool", true);
+            lastShootTime = Time.time;
+            var bala = ObjectPool.SharedInstance.GetFirstPooledObject();
+            bala.layer = LayerMask.NameToLayer("Bala Player");
+            bala.transform.position = transform.position;
+            bala.transform.rotation = transform.rotation;
+            bala.SetActive(true);
+        }
+
+        
+    }
+
+    void LookAt(Vector3 targetPos)
+    {
+        Vector3 directionToLook = Vector3.Normalize(targetPos- transform.position);
+        directionToLook.y = 0;
+        transform.parent.forward = directionToLook;
+    }
+    
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
