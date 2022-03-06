@@ -24,7 +24,9 @@ public class GameModeOleadas : MonoBehaviour
     }
 
     void CheckLoseCondition()
-    {   
+    {
+        RegisterScore();
+        RegisterTime();
         SceneManager.LoadScene(3, LoadSceneMode.Single); // cargar por puesto en gerarquia de build setting
     }
 
@@ -34,7 +36,39 @@ public class GameModeOleadas : MonoBehaviour
         if (EnemyManager.SharedInstance.EnemyCount <= 0 &&
             OleadasManager.SharedInstance.WavesCount <= 0)
         {
+            RegisterScore();
+            RegisterTime();
             SceneManager.LoadScene("WinScene", LoadSceneMode.Single); // cargar por nombre
         }
     }
+    
+    
+    
+    void RegisterScore()
+    {
+        var actualScore = ScoreManager.SharedInstance.Amount;
+        PlayerPrefs.SetInt("Last Score", actualScore);
+
+        var highScore = PlayerPrefs.GetInt("High Score", 0);
+        
+        if (actualScore > highScore)
+        {
+            PlayerPrefs.SetInt("High Score", actualScore);
+        }
+
+    }
+
+    void RegisterTime()
+    {
+        var actualTime = Time.time;
+        PlayerPrefs.SetFloat("Last Time", actualTime);
+
+        var lowTime = PlayerPrefs.GetFloat("low Time", 9999999.0f);
+        
+        if (actualTime < lowTime)
+        {
+            PlayerPrefs.SetFloat("Low Time", actualTime);
+        }
+    }
+
 }

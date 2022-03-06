@@ -21,7 +21,8 @@ public class EnemyFSM : MonoBehaviour
     
     private float lastShootTime;
     public float shootRate;
-    
+
+    public GameObject shootingPoint;
     
     private void Awake()
     {
@@ -157,11 +158,12 @@ public class EnemyFSM : MonoBehaviour
                 return;
             }
             animator.SetBool("Shoot Bullet Bool", true);
+            
             lastShootTime = Time.time;
             var bala = ObjectPool.SharedInstance.GetFirstPooledObject();
-            bala.layer = LayerMask.NameToLayer("Bala Player");
-            bala.transform.position = transform.position;
-            bala.transform.rotation = transform.rotation;
+            bala.layer = LayerMask.NameToLayer("Bala Enemigo");
+            bala.transform.position = shootingPoint.transform.position;
+            bala.transform.rotation = shootingPoint.transform.rotation;
             bala.SetActive(true);
         }
 

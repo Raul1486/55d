@@ -40170,7 +40170,6 @@ GameObject:
   - component: {fileID: 378105323}
   - component: {fileID: 378105324}
   - component: {fileID: 378105322}
-  - component: {fileID: 378105325}
   m_Layer: 12
   m_Name: Base
   m_TagString: Base
@@ -40282,7 +40281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3945d6c7ec48bf744b63716be3a32efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amount: 1000
+  amount: 0
   MaxLife: 1000
   onDeath:
     m_PersistentCalls:
@@ -40295,22 +40294,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378105318}
   m_CullTransparentMesh: 1
---- !u!208 &378105325
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378105318}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!224 &378105326
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40320,14 +40303,14 @@ RectTransform:
   m_GameObject: {fileID: 378105318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 26.56}
-  m_LocalScale: {x: 9.885515, y: 1.7187742, z: 1.9375}
+  m_LocalScale: {x: 9.885515, y: 4.226638, z: 1.9375}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 65.35, y: 57}
+  m_AnchoredPosition: {x: 65.35, y: 58.22}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &397868192
@@ -43493,8 +43476,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 714529021640990023, guid: 3244dbf3fedea884491820e5346c8405, type: 3}
-  startTime: 2
-  endTime: 5
+  startTime: 1
+  endTime: 3
   spawnRate: 1
 --- !u!4 &1189381847
 Transform:
@@ -43504,7 +43487,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189381845}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 33.11, y: 56.322, z: 66.78}
+  m_LocalPosition: {x: 33.11, y: 56.1, z: 66.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -44771,8 +44754,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 714529021640990023, guid: 3244dbf3fedea884491820e5346c8405, type: 3}
   startTime: 1
-  endTime: 3
-  spawnRate: 0.5
+  endTime: 2
+  spawnRate: 1
 --- !u!1 &1784713453
 GameObject:
   m_ObjectHideFlags: 0

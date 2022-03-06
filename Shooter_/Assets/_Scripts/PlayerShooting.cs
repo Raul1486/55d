@@ -34,7 +34,7 @@ public class PlayerShooting : MonoBehaviour
     void FireBullet()
     {
         GameObject bala = ObjectPool.SharedInstance.GetFirstPooledObject();
-        bala.layer = LayerMask.NameToLayer("Bala Enemigo");
+        bala.layer = LayerMask.NameToLayer("Bala Player");
         bala.transform.position = shootingPoint.transform.position;
         bala.transform.rotation = shootingPoint.transform.rotation;
         bala.SetActive(true);

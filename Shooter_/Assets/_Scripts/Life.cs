@@ -13,8 +13,6 @@ public class Life : MonoBehaviour
 
     public float MaxLife = 100f;
     
-    
-    
     public UnityEvent onDeath;
     
     

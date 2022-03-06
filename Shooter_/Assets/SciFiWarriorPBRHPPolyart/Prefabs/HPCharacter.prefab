@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3157554315058607708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1684994236058307641}
+  m_Layer: 8
+  m_Name: Shooting Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1684994236058307641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3157554315058607708}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -107.89, y: 3.78, z: -9.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7673487251499544684}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &4562050869108391131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,10 +2319,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.4718419
-  m_Height: 2.2455819
+  m_Radius: 0.5593318
+  m_Height: 2.5556114
   m_Direction: 1
-  m_Center: {x: -0.0043274164, y: 1.0113903, z: -0.0526599}
+  m_Center: {x: 0.04156995, y: 1.1664051, z: -0.01106739}
 --- !u!54 &1430915556827403501
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2308,7 +2338,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 80
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &-3044074690899564005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2675,7 +2705,8 @@ Transform:
   m_LocalRotation: {x: -0.0031178175, y: 0.0071248533, z: 0.40088162, w: 0.91609687}
   m_LocalPosition: {x: -9.913989, y: -10.731702, z: 9.284221}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1684994236058307641}
   m_Father: {fileID: 7673487251499544592}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3021,9 +3052,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  baseAttackDistance: 2.5
+  baseAttackDistance: 3
   playerAttackDistance: 3
   shootRate: 1
+  shootingPoint: {fileID: 3157554315058607708}
 --- !u!1001 &1487261519769727250
 PrefabInstance:
   m_ObjectHideFlags: 0
