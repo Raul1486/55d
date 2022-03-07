@@ -6,14 +6,11 @@ using UnityEngine.Rendering;
 
 public class PlayerShooting : MonoBehaviour
 {
-    public GameObject shootingPoint;
-    public ParticleSystem fireEffect;
-
-    public AudioSource disparoSound;
-    
     private Animator _animator;
 
     public int bulletsAmount;
+    
+    public Arma arma;
     
     
     private void Awake()
@@ -24,30 +21,18 @@ public class PlayerShooting : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && bulletsAmount > 0 && Time.timeScale > 0)
+        if (Input.GetKey(KeyCode.Mouse0) && Time.timeScale > 0)
         {
             _animator.SetTrigger("Disparo");
-            Invoke("FireBullet", 0.25f);
+            if (bulletsAmount > 0 && arma.ShootBullet("Bala Player", 0.25f))
+            {
+                bulletsAmount--;
+                if (bulletsAmount<0)
+                {
+                    bulletsAmount = 0;
+                }
+            }
         }
-    }
-
-    void FireBullet()
-    {
-        GameObject bala = ObjectPool.SharedInstance.GetFirstPooledObject();
-        bala.layer = LayerMask.NameToLayer("Bala Player");
-        bala.transform.position = shootingPoint.transform.position;
-        bala.transform.rotation = shootingPoint.transform.rotation;
-        bala.SetActive(true);
         
-        fireEffect.Play();
-        
-        Instantiate(disparoSound, transform.position, transform.rotation).
-            GetComponent<AudioSource>().Play();
-        
-        bulletsAmount--;
-        if (bulletsAmount<0)
-        {
-            bulletsAmount = 0;
-        }
     }
 }

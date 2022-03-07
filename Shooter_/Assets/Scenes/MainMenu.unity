@@ -334,6 +334,7 @@ GameObject:
   - component: {fileID: 369659312}
   - component: {fileID: 369659315}
   - component: {fileID: 369659314}
+  - component: {fileID: 369659316}
   - component: {fileID: 369659313}
   m_Layer: 5
   m_Name: Empezar
@@ -405,7 +406,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 369659314}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 369659316}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: Inicio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &369659314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,6 +457,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369659311}
   m_CullTransparentMesh: 1
+--- !u!114 &369659316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369659311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6366c4e4d5e462f458c576af4384a183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Empezar: {fileID: 369659313}
 --- !u!1 &546331475
 GameObject:
   m_ObjectHideFlags: 0

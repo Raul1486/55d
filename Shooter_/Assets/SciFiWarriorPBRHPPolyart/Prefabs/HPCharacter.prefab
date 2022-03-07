@@ -798,6 +798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7673487251499544598}
   - component: {fileID: 7673487251510747448}
+  - component: {fileID: 4937854849416500952}
   m_Layer: 8
   m_Name: AssaultRifle
   m_TagString: Untagged
@@ -928,6 +929,22 @@ SkinnedMeshRenderer:
     m_Center: {x: -34.27955, y: -49.079704, z: 120.48372}
     m_Extent: {x: 95.48148, y: 94.6697, z: 10.629513}
   m_DirtyAABB: 0
+--- !u!114 &4937854849416500952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673487251499248694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf231e6ba6c00f144947fb0dbc8c1c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireEffect: {fileID: 0}
+  disparoSound: {fileID: 9124014119241475890, guid: 180c8a3399c716a49979449aba0cdf02, type: 3}
+  shootRate: 1
+  shootingPoint: {fileID: 3157554315058607708}
 --- !u!1 &7673487251499248696
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,7 +2385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3c91ba3db729164889b518e7566fff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsAmount: 20
+  pointsAmount: 50
 --- !u!195 &3067143343887802553
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3053,9 +3070,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   baseAttackDistance: 3
-  playerAttackDistance: 3
-  shootRate: 1
-  shootingPoint: {fileID: 3157554315058607708}
+  playerAttackDistance: 2
+  arma: {fileID: 4937854849416500952}
 --- !u!1001 &1487261519769727250
 PrefabInstance:
   m_ObjectHideFlags: 0

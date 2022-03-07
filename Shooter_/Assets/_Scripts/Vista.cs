@@ -12,10 +12,17 @@ public class Vista : MonoBehaviour
    public LayerMask obstacleLayers;
 
    public Collider detectedTarget;
+   private Collider[] colliders;
    
    private void Update()
    {
-      Collider[] colliders = Physics.OverlapSphere(transform.position, distance, targetLayers);
+      /*if (Physics.OverlapSphereNonAlloc(transform.position, distance, this.colliders,
+             targetLayers) == 0)
+      {
+         return;
+      }*/
+      
+      colliders = Physics.OverlapSphere(transform.position, distance, targetLayers);
 
       detectedTarget = null;
       //SI ESTAMOS AQUI ES QUE HEMOS PASADO EL PRIMER FILTRO, LA DISTANCIA.

@@ -192,7 +192,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 2
   m_Text: 'Score: '
 --- !u!222 &556918123
 CanvasRenderer:
@@ -439,7 +439,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 2
   m_Text: 'Best: '
 --- !u!222 &965302312
 CanvasRenderer:
@@ -481,7 +481,7 @@ MonoBehaviour:
   actualScore: {fileID: 556918122}
   actualTime: {fileID: 1418037046}
   bestScore: {fileID: 965302311}
-  bestTime: {fileID: 1726312060}
+  lowTime: {fileID: 1726312060}
 --- !u!4 &1088525235
 Transform:
   m_ObjectHideFlags: 0
@@ -675,8 +675,8 @@ RectTransform:
   - {fileID: 965302310}
   - {fileID: 1418037045}
   - {fileID: 1726312059}
-  - {fileID: 1457030430}
   - {fileID: 1652141964}
+  - {fileID: 1457030430}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -754,7 +754,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 2
   m_Text: 'Time: '
 --- !u!222 &1418037047
 CanvasRenderer:
@@ -794,7 +794,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1132625351}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -930,7 +930,7 @@ RectTransform:
   m_Children:
   - {fileID: 1695409486}
   m_Father: {fileID: 1132625351}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1234,7 +1234,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 2
   m_Text: 'Best: '
 --- !u!222 &1726312061
 CanvasRenderer:

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
@@ -18,11 +19,8 @@ public class EnemyFSM : MonoBehaviour
 
     private NavMeshAgent agent;
     private Animator animator;
-    
-    private float lastShootTime;
-    public float shootRate;
 
-    public GameObject shootingPoint;
+    public Arma arma;
     
     private void Awake()
     {
@@ -80,7 +78,7 @@ public class EnemyFSM : MonoBehaviour
     void GoToBase()
     {
         animator.SetBool("Shoot Bullet Bool", false);
-        print("Ir a base");
+        //print("Ir a base");
 
         agent.isStopped = false;
         agent.SetDestination(baseTransform.position);
@@ -100,7 +98,7 @@ public class EnemyFSM : MonoBehaviour
     void AttackBase() // ESTE SE QUEDA VACIO XQ SI LLEGAN A LA BASE VA QUEDARSE AHI HASTA QUE MUERA...
     {
         agent.isStopped = true;
-        print("atacar base");
+        //print("atacar base");
         LookAt(baseTransform.position);
         ShootTarget();
     }
@@ -108,7 +106,7 @@ public class EnemyFSM : MonoBehaviour
     void ChasePlayer()
     {
         animator.SetBool("Shoot Bullet Bool", false);
-        print("persigue jug");
+        //print("persigue jug");
         if (_vista.detectedTarget == null)
         {
             currentState = EnemyState.GoToBase;
@@ -127,7 +125,7 @@ public class EnemyFSM : MonoBehaviour
 
     void AttackPlayer()
     {
-        print("ataca jug");
+        //print("ataca jug");
 
         agent.isStopped = true;
         
@@ -150,24 +148,10 @@ public class EnemyFSM : MonoBehaviour
     
     void ShootTarget()
     {
-        if (Time.timeScale>0)
+        if (arma.ShootBullet("Bala Enemigo", 0))
         {
-            var timeSinceLastShoot = Time.time - lastShootTime;
-            if (timeSinceLastShoot < shootRate)
-            {
-                return;
-            }
             animator.SetBool("Shoot Bullet Bool", true);
-            
-            lastShootTime = Time.time;
-            var bala = ObjectPool.SharedInstance.GetFirstPooledObject();
-            bala.layer = LayerMask.NameToLayer("Bala Enemigo");
-            bala.transform.position = shootingPoint.transform.position;
-            bala.transform.rotation = shootingPoint.transform.rotation;
-            bala.SetActive(true);
         }
-
-        
     }
 
     void LookAt(Vector3 targetPos)
